@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.turbo/
+.next/
+storybook-static/
+*.tsbuildinfo
+.env
+.env.local
+.DS_Store
+.changeset/pre.json
+
+*storybook.log

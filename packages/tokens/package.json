@@ -1,0 +1,37 @@
+{
+  "name": "@dev-in-realtime/tokens",
+  "version": "0.0.0",
+  "description": "Platform-agnostic design tokens (color, spacing, typography, radius). Framework-free: no React/Tailwind assumptions.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dev-in-realtime/design-system.git",
+    "directory": "packages/tokens"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "type": "module",
+  "main": "./dist/js/tokens.js",
+  "types": "./dist/js/tokens.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/js/tokens.d.ts",
+      "import": "./dist/js/tokens.js"
+    },
+    "./css": "./dist/css/variables.css",
+    "./css/dark": "./dist/css/variables-dark.css"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "node scripts/build.js",
+    "dev": "node scripts/build.js --watch",
+    "typecheck": "tsc --noEmit -p tsconfig.json"
+  },
+  "devDependencies": {
+    "style-dictionary": "^5.5.5",
+    "typescript": "^5.6.0"
+  }
+}
