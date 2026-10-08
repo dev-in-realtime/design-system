@@ -1,6 +1,6 @@
 {
   "name": "@dev-in-realtime/tokens",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Platform-agnostic design tokens (color, spacing, typography, radius). Framework-free: no React/Tailwind assumptions.",
   "license": "MIT",
   "repository": {
