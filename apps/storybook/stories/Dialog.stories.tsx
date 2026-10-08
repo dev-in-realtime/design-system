@@ -29,8 +29,8 @@ export const Default: Story = {
         <DialogHeader>
           <DialogTitle>Edit profile</DialogTitle>
           <DialogDescription>
-            This is a Radix Dialog styled entirely from @dev-in-realtime/tokens CSS
-            variables.
+            This is a Radix Dialog styled entirely from @dev-in-realtime/tokens
+            CSS variables.
           </DialogDescription>
         </DialogHeader>
         <DialogFooter>
